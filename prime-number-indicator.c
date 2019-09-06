@@ -29,19 +29,12 @@ int prime_number(int number){
 	// This part of code is to return 0 for not prime 2 numbers 0 and 1
 	if(number == 1 || number == 0)
 		return 0;
-/**
- * 
- * This part of code is to check the conditions of the prime number
- * i found the prime number may be recognized by dividing any number by the
- * 4 first base number that any number can be the nultible of it 
- * ("2 3 4 5")
- * if you track these numbers you will found any nit_prime number 
- * can't be divided by them 
- * 
- * **/
+// checking the prime number by ividing it by all numbers less than it except 1 and 0
+	
 	for(value = 2 ; (value < number) ; ++value)
 	{
-		if(number%2==0 || number%3==0 ||number%4==0 ||number%5==0){
+		int x = number %value ;
+		if(x == 0){
 			return 0;
 		}
 
