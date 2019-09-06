@@ -1,0 +1,25 @@
+Q1 : Are the expressions *++ptr and *ptr++ the same ?
+A1 : NO
+
+Q2 : what would be the equivalent pointer expression for referring the array element a[i][j][k][l] ?
+A2 : int a[i][j][k][l] ;
+	int *val = &arr[0][0][0][0];
+	for (int i=0; i<(j*i*k*l);*val++,i++)
+	{
+		*val = i;
+		printf("%d\n", *val);
+	}
+Q3 : what would be the output of the following program?
+  main(){
+  int arr[]={12,13,14,15,16};
+  printf( "%d %d %d",sizeof(arr),sizeof(*arr),sizeof(arr[0]) );
+  }
+  
+A3 : 20 4 4
+
+Q4 : where we can use the pointer ?
+A4 : 
+
+Q5 : 
+A5 : 
+  
