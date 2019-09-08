@@ -19,6 +19,9 @@ A3 : 20 4 4
 
 Q4 : where we can use the pointer ?
 A4 : 
+1- Pointers enable complex “linked" data structures like linked lists and binary trees.
+2- To pass large structures so that complete copy of the structure can be avoided.
+3- Pointers allow different functions to share and modify their local variables.
 
 Q5 : 
 A5 : 
